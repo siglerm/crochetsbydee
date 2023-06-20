@@ -1,0 +1,56 @@
+.main {
+  box-sizing: border-box;
+  font-family: "Baloo Bhaijaan 2";
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  background-color: #fff7f8;
+  flex-direction: column;
+  color: black;
+  min-height: 67vh;
+  vertical-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-size: 22px;
+}
+
+.formInput,
+.formTextArea {
+  font-size: 16px;
+  height: 2rem;
+  width: 20rem;
+}
+
+.formTextArea {
+  height: 10rem;
+}
+
+.formCharCount {
+  font-size: 12px;
+  text-align: right;
+  margin-bottom: 7px;
+}
+
+.formButton {
+  font-family: "Baloo Bhaijaan 2";
+  background-color: #ffc7c2;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  height: 1.7rem;
+  width: 5rem;
+  align-self: center;
+}
+
+.formButton:hover {
+  background-color: #ff8176;
+}

@@ -21,8 +21,8 @@ export default function Nav() {
           <Link href="/" className={styles.navButton}>
             Home
           </Link>
-          <Link href="/shop" className={styles.navButton}>
-            Shop
+          <Link href="/contact" className={styles.navButton}>
+            Contact Me
           </Link>
         </div>
       </nav>

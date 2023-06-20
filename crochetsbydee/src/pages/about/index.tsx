@@ -1,6 +1,4 @@
-import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import { Baloo_Bhaijaan_2 } from "next/font/google";
 import styles from "../../styles/about.module.css";
 

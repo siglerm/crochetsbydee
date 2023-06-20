@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import Head from "next/head";
 import Image from "next/image";
 import { Baloo_Bhaijaan_2 } from "next/font/google";
@@ -25,16 +26,17 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <section className={styles.app}>
-          <div>
+          <div className={styles.homeFeed}>
             {imageAssets.map((photo, index) => {
               return (
-                <div className={styles.cardContainer} id={index}>
-                  <div className={styles.displayCard}>
+                <div className={styles.cardContainer}>
+                  <div className={styles.displayCard} id={`${index}`}>
                     <Image
                       src={`/assets/${photo}`}
                       alt=""
                       width={320}
                       height={300}
+                      className={styles.homeImage}
                     />
                     <h2 className={styles.cardTitle}>
                       {photo.slice(0, photo.length - 4)}
